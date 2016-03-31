@@ -1,0 +1,3 @@
+[submodule "ParasiteRuntime/ParasiteRuntime/ZKSwizzle"]
+	path = ParasiteRuntime/ParasiteRuntime/ZKSwizzle
+	url = https://github.com/alexzielenski/ZKSwizzle.git
