@@ -24,3 +24,7 @@ FOUNDATION_EXPORT const unsigned char ParasiteRuntimeVersionString[];
 
 #import <ParasiteRuntime/ZKSwizzle.h>
 #import <ParasiteRuntime/PSHook.h>
+#import <CoreFoundation/CoreFoundation.h>
+
+typedef void(*PSLoaderCallback)(CFURLRef path, CFIndex idx, CFIndex total);
+void PSRegisterCallback(PSLoaderCallback callback);
